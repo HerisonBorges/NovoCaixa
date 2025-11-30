@@ -30,6 +30,8 @@ namespace CaixaDeSupermercado
 
 		private void CarregarDoArquivo()
 		{
+
+			produtos.Clear();
 			if (!System.IO.File.Exists("produtos.txt"))
 				return;
 
@@ -158,13 +160,16 @@ namespace CaixaDeSupermercado
 			}
 		}
 
-		
+
 		private void btnListar_Click(object sender, EventArgs e)
 		{
-			AtualizarLista();
+			CarregarDoArquivo();
+			TelaListagemProdutos telaListagem = new TelaListagemProdutos(this.produtos);
+			telaListagem.ShowDialog();
+
 		}
 
-		
+
 		private void lstProdutos_SelectedIndexChanged(object sender, EventArgs e)
 		{
 			if (lstProdutos.SelectedItem == null)

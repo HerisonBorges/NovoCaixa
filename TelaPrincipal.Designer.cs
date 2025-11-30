@@ -29,9 +29,9 @@
 		private void InitializeComponent()
 		{
 			this.panelMenu = new System.Windows.Forms.Panel();
-			this.btnEstoque = new System.Windows.Forms.Button();
-			this.btnProdutos = new System.Windows.Forms.Button();
 			this.btnClientes = new System.Windows.Forms.Button();
+			this.btnProdutos = new System.Windows.Forms.Button();
+			this.btnEstoque = new System.Windows.Forms.Button();
 			this.panelMenu.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -47,40 +47,41 @@
 			this.panelMenu.Size = new System.Drawing.Size(200, 450);
 			this.panelMenu.TabIndex = 0;
 			// 
-			// btnEstoque
+			// btnClientes
 			// 
-			this.btnEstoque.Location = new System.Drawing.Point(56, 54);
-			this.btnEstoque.Name = "btnEstoque";
-			this.btnEstoque.Size = new System.Drawing.Size(75, 23);
-			this.btnEstoque.TabIndex = 0;
-			this.btnEstoque.Text = "Estoque";
-			this.btnEstoque.UseVisualStyleBackColor = true;
-			this.btnEstoque.Click += new System.EventHandler(this.btnEstoque_Click);
+			this.btnClientes.Image = global::CaixaDeSupermercado.Properties.Resources.client_6009897;
+			this.btnClientes.Location = new System.Drawing.Point(56, 342);
+			this.btnClientes.Name = "btnClientes";
+			this.btnClientes.Size = new System.Drawing.Size(75, 63);
+			this.btnClientes.TabIndex = 2;
+			this.btnClientes.UseVisualStyleBackColor = true;
+			this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
 			// 
 			// btnProdutos
 			// 
+			this.btnProdutos.Image = global::CaixaDeSupermercado.Properties.Resources.products_1312256;
 			this.btnProdutos.Location = new System.Drawing.Point(56, 196);
 			this.btnProdutos.Name = "btnProdutos";
-			this.btnProdutos.Size = new System.Drawing.Size(75, 23);
+			this.btnProdutos.Size = new System.Drawing.Size(75, 63);
 			this.btnProdutos.TabIndex = 1;
-			this.btnProdutos.Text = "Produtos";
 			this.btnProdutos.UseVisualStyleBackColor = true;
 			this.btnProdutos.Click += new System.EventHandler(this.btnProdutos_Click);
 			// 
-			// btnClientes
+			// btnEstoque
 			// 
-			this.btnClientes.Location = new System.Drawing.Point(56, 344);
-			this.btnClientes.Name = "btnClientes";
-			this.btnClientes.Size = new System.Drawing.Size(75, 23);
-			this.btnClientes.TabIndex = 2;
-			this.btnClientes.Text = "Clientes";
-			this.btnClientes.UseVisualStyleBackColor = true;
-			this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
+			this.btnEstoque.Image = global::CaixaDeSupermercado.Properties.Resources.EstoqueIcone;
+			this.btnEstoque.Location = new System.Drawing.Point(56, 54);
+			this.btnEstoque.Name = "btnEstoque";
+			this.btnEstoque.Size = new System.Drawing.Size(75, 57);
+			this.btnEstoque.TabIndex = 0;
+			this.btnEstoque.UseVisualStyleBackColor = true;
+			this.btnEstoque.Click += new System.EventHandler(this.btnEstoque_Click);
 			// 
 			// TelaPrincipal
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.SystemColors.ActiveCaption;
 			this.ClientSize = new System.Drawing.Size(800, 450);
 			this.Controls.Add(this.panelMenu);
 			this.Name = "TelaPrincipal";

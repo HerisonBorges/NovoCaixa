@@ -25,11 +25,11 @@
 			this.txtPreco = new System.Windows.Forms.TextBox();
 			this.txtQuantidade = new System.Windows.Forms.TextBox();
 			this.txtId = new System.Windows.Forms.TextBox();
-			this.btnAdicionar = new System.Windows.Forms.Button();
-			this.btnEditar = new System.Windows.Forms.Button();
-			this.btnExcluir = new System.Windows.Forms.Button();
-			this.btnListar = new System.Windows.Forms.Button();
 			this.lstProdutos = new System.Windows.Forms.ListBox();
+			this.btnListar = new System.Windows.Forms.Button();
+			this.btnExcluir = new System.Windows.Forms.Button();
+			this.btnEditar = new System.Windows.Forms.Button();
+			this.btnAdicionar = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -97,43 +97,6 @@
 			this.txtId.Size = new System.Drawing.Size(218, 20);
 			this.txtId.TabIndex = 7;
 			// 
-			// btnAdicionar
-			// 
-			this.btnAdicionar.Location = new System.Drawing.Point(131, 226);
-			this.btnAdicionar.Name = "btnAdicionar";
-			this.btnAdicionar.Size = new System.Drawing.Size(75, 23);
-			this.btnAdicionar.TabIndex = 8;
-			this.btnAdicionar.Text = "Adicionar";
-			this.btnAdicionar.UseVisualStyleBackColor = true;
-			this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
-			// 
-			// btnEditar
-			// 
-			this.btnEditar.Location = new System.Drawing.Point(265, 225);
-			this.btnEditar.Name = "btnEditar";
-			this.btnEditar.Size = new System.Drawing.Size(75, 23);
-			this.btnEditar.TabIndex = 9;
-			this.btnEditar.Text = "Editar";
-			this.btnEditar.UseVisualStyleBackColor = true;
-			// 
-			// btnExcluir
-			// 
-			this.btnExcluir.Location = new System.Drawing.Point(402, 225);
-			this.btnExcluir.Name = "btnExcluir";
-			this.btnExcluir.Size = new System.Drawing.Size(75, 23);
-			this.btnExcluir.TabIndex = 10;
-			this.btnExcluir.Text = "Excluir";
-			this.btnExcluir.UseVisualStyleBackColor = true;
-			// 
-			// btnListar
-			// 
-			this.btnListar.Location = new System.Drawing.Point(548, 225);
-			this.btnListar.Name = "btnListar";
-			this.btnListar.Size = new System.Drawing.Size(75, 23);
-			this.btnListar.TabIndex = 11;
-			this.btnListar.Text = "Listar";
-			this.btnListar.UseVisualStyleBackColor = true;
-			// 
 			// lstProdutos
 			// 
 			this.lstProdutos.FormattingEnabled = true;
@@ -141,6 +104,43 @@
 			this.lstProdutos.Name = "lstProdutos";
 			this.lstProdutos.Size = new System.Drawing.Size(319, 147);
 			this.lstProdutos.TabIndex = 12;
+			// 
+			// btnListar
+			// 
+			this.btnListar.Image = global::CaixaDeSupermercado.Properties.Resources.iconeListar;
+			this.btnListar.Location = new System.Drawing.Point(548, 225);
+			this.btnListar.Name = "btnListar";
+			this.btnListar.Size = new System.Drawing.Size(75, 47);
+			this.btnListar.TabIndex = 11;
+			this.btnListar.UseVisualStyleBackColor = true;
+			// 
+			// btnExcluir
+			// 
+			this.btnExcluir.Image = global::CaixaDeSupermercado.Properties.Resources.iconeExcluir;
+			this.btnExcluir.Location = new System.Drawing.Point(402, 225);
+			this.btnExcluir.Name = "btnExcluir";
+			this.btnExcluir.Size = new System.Drawing.Size(75, 47);
+			this.btnExcluir.TabIndex = 10;
+			this.btnExcluir.UseVisualStyleBackColor = true;
+			// 
+			// btnEditar
+			// 
+			this.btnEditar.Image = global::CaixaDeSupermercado.Properties.Resources.iconeEditar;
+			this.btnEditar.Location = new System.Drawing.Point(265, 225);
+			this.btnEditar.Name = "btnEditar";
+			this.btnEditar.Size = new System.Drawing.Size(75, 47);
+			this.btnEditar.TabIndex = 9;
+			this.btnEditar.UseVisualStyleBackColor = true;
+			// 
+			// btnAdicionar
+			// 
+			this.btnAdicionar.Image = global::CaixaDeSupermercado.Properties.Resources.iconeAdicionar;
+			this.btnAdicionar.Location = new System.Drawing.Point(131, 225);
+			this.btnAdicionar.Name = "btnAdicionar";
+			this.btnAdicionar.Size = new System.Drawing.Size(75, 47);
+			this.btnAdicionar.TabIndex = 8;
+			this.btnAdicionar.UseVisualStyleBackColor = true;
+			this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
 			// 
 			// TelaEstoque
 			// 

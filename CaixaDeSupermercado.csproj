@@ -47,6 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Produto.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="TelaClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +63,12 @@
     </Compile>
     <Compile Include="TelaEstoque.Designer.cs">
       <DependentUpon>TelaEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaListagemProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaListagemProdutos.Designer.cs">
+      <DependentUpon>TelaListagemProdutos.cs</DependentUpon>
     </Compile>
     <Compile Include="TelaPrincipal.cs">
       <SubType>Form</SubType>
@@ -75,15 +86,14 @@
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="TelaEstoque.resx">
       <DependentUpon>TelaEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaListagemProdutos.resx">
+      <DependentUpon>TelaListagemProdutos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaPrincipal.resx">
       <DependentUpon>TelaPrincipal.cs</DependentUpon>
@@ -100,6 +110,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ICONES\iconeAdicionar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ICONES\iconeEditar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ICONES\iconeExcluir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ICONES\iconeListar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ICONES\EstoqueIcone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ICONES\products_1312256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ICONES\client_6009897.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,3 +10,4 @@ C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercad
 C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercado\obj\Debug\CaixaDeSupermercado.exe
 C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercado\obj\Debug\CaixaDeSupermercado.pdb
 C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercado\obj\Debug\CaixaDeSupermercado.exe.config
+C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercado\obj\Debug\CaixaDeSupermercado.TelaListagemProdutos.resources
