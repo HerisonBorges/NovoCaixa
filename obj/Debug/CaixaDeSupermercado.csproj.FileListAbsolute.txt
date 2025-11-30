@@ -1,0 +1,12 @@
+C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercado\bin\Debug\CaixaDeSupermercado.exe.config
+C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercado\bin\Debug\CaixaDeSupermercado.exe
+C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercado\bin\Debug\CaixaDeSupermercado.pdb
+C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercado\obj\Debug\CaixaDeSupermercado.csproj.AssemblyReference.cache
+C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercado\obj\Debug\CaixaDeSupermercado.Properties.Resources.resources
+C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercado\obj\Debug\CaixaDeSupermercado.TelaEstoque.resources
+C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercado\obj\Debug\CaixaDeSupermercado.TelaPrincipal.resources
+C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercado\obj\Debug\CaixaDeSupermercado.csproj.GenerateResource.cache
+C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercado\obj\Debug\CaixaDeSupermercado.csproj.CoreCompileInputs.cache
+C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercado\obj\Debug\CaixaDeSupermercado.exe
+C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercado\obj\Debug\CaixaDeSupermercado.pdb
+C:\Users\Thoor\Desktop\trabalhoPOOYasushi\CaixaDeSupermercado\CaixaDeSupermercado\obj\Debug\CaixaDeSupermercado.exe.config
